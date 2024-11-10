@@ -60,10 +60,32 @@ def crawl_and_convert(start_url):
             html_content = response.text
             soup = BeautifulSoup(html_content, "html.parser")
 
-            # Convertir le HTML en Markdown
+            # Extraire le contenu principal
+            main_content = soup.find("main", {"id": "article-contents"})
+            if main_content is None:
+                # Si la structure est différente, utiliser le corps principal
+                main_content = soup.find("div", {"class": "markdown-body"})
+                if main_content is None:
+                    main_content = soup
+
+            # Convertir le contenu principal en Markdown
+            html_main_content = str(main_content)
             converter = html2text.HTML2Text()
             converter.ignore_links = False
-            markdown = converter.handle(html_content)
+            markdown = converter.handle(html_main_content)
+
+            # Supprimer tout avant le premier titre de niveau 1
+            lines = markdown.split("\n")
+            start_index = None
+            for i, line in enumerate(lines):
+                if line.startswith("# "):
+                    start_index = i
+                    break
+            if start_index is not None:
+                markdown = "\n".join(lines[start_index:])
+            else:
+                # Aucun titre de niveau 1 trouvé, ignorer cette page
+                continue
 
             # Enregistrer le Markdown dans un fichier
             file_path = get_file_path(url, start_url)
@@ -73,7 +95,7 @@ def crawl_and_convert(start_url):
                 f.write(markdown)
 
             # Trouver tous les liens et les ajouter à la file d'attente
-            for link in soup.find_all("a", href=True):
+            for link in main_content.find_all("a", href=True):
                 href = link["href"]
                 next_url = urljoin(url, href)
                 parsed_next_url = urlparse(next_url)
