@@ -17,33 +17,17 @@ def normalize_url(url):
     return url
 
 
-def get_file_path(url, start_url):
+def crawl_and_collect(start_url, file_name_output):
     """
-    Génère le chemin du fichier de sortie en fonction de l'URL.
-    """
-    parsed_url = urlparse(url)
-    path = parsed_url.path
-    if path.endswith("/"):
-        path += "index.html"
-    elif "." not in os.path.basename(path):
-        path += "/index.html"
-    file_path = "output" + path
-    if file_path.endswith(".html"):
-        file_path = file_path[:-5] + ".md"
-    else:
-        file_path += ".md"
-    return file_path
-
-
-def crawl_and_convert(start_url):
-    """
-    Parcourt la documentation à partir de l'URL de départ et convertit chaque page en Markdown.
+    Parcourt la documentation à partir de l'URL de départ et collecte le contenu Markdown de chaque page.
     """
     visited = set()
     queue = deque()
     queue.append(start_url)
     base_netloc = urlparse(start_url).netloc
     base_path = urlparse(start_url).path
+
+    markdown_contents = []
 
     while queue:
         url = queue.popleft()
@@ -87,12 +71,8 @@ def crawl_and_convert(start_url):
                 # Aucun titre de niveau 1 trouvé, ignorer cette page
                 continue
 
-            # Enregistrer le Markdown dans un fichier
-            file_path = get_file_path(url, start_url)
-            dir_name = os.path.dirname(file_path)
-            os.makedirs(dir_name, exist_ok=True)
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(markdown)
+            # Ajouter le contenu Markdown à la liste
+            markdown_contents.append(markdown)
 
             # Trouver tous les liens et les ajouter à la file d'attente
             for link in main_content.find_all("a", href=True):
@@ -110,8 +90,14 @@ def crawl_and_convert(start_url):
         except Exception as e:
             print(f"Échec du traitement de {url}: {e}")
 
+    # Écrire tout le contenu Markdown dans un seul fichier
+    all_markdown = "\n\n".join(markdown_contents)
+    with open(file_name_output, "w", encoding="utf-8") as f:
+        f.write(all_markdown)
+
 
 if __name__ == "__main__":
     # URL de départ (par exemple, la documentation GitHub Copilot)
-    start_url = "https://docs.github.com/fr/copilot"
-    crawl_and_convert(start_url)
+    START_URL = "https://docs.github.com/fr/copilot"
+    FILE_NAME_OUTPUT = "documentation_github_copilot.md"
+    crawl_and_collect(START_URL, FILE_NAME_OUTPUT)
