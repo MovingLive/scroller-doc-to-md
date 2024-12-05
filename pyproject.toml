@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["Steve <steve.magne@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.3"
+certifi = "^2024.8.30"
+charset-normalizer = "^3.4.0"
+html2text = "^2024.2.26"
+idna = "^3.10"
+requests = "^2.32.3"
+soupsieve = "^2.6"
+urllib3 = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

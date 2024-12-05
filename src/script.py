@@ -99,5 +99,5 @@ def crawl_and_collect(start_url, file_name_output):
 if __name__ == "__main__":
     # URL de départ (par exemple, la documentation GitHub Copilot)
     START_URL = "https://docs.github.com/fr/copilot"
-    FILE_NAME_OUTPUT = "documentation_github_copilot.md"
+    FILE_NAME_OUTPUT = "extract/documentation_github_copilot.md"
     crawl_and_collect(START_URL, FILE_NAME_OUTPUT)

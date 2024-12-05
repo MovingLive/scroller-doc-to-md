@@ -11,7 +11,7 @@ copilot)[Démarrage rapide ](/fr/copilot/quickstart)
 
   * ### [Qu'est-ce que GitHub Copilot ?Savoir ce qu’est GitHub et comment s’en servir.](/fr/copilot/about-github-copilot/what-is-github-copilot)
 
-  * ### [Démarrage rapide pour GitHub CopilotDécouvrez rapidement comment utiliser GitHub Copilot dans votre éditeur .](/fr/copilot/quickstart)
+  * ### [Démarrage rapide pour GitHub CopilotApprenez rapidement à utiliser GitHub Copilot.](/fr/copilot/quickstart)
 
 ## Populaire
 
@@ -19,19 +19,19 @@ copilot)[Démarrage rapide ](/fr/copilot/quickstart)
 
   * ### [Ingénierie d’invite pour GitHub CopilotSuivez ces stratégies pour améliorer vos résultats Copilot.](/fr/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
 
-  * ### [Obtention de suggestions de code dans votre IDE avec GitHub CopilotUtilisez GitHub Copilot pour obtenir des suggestions de code dans votre éditeur.](/fr/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot)
+  * ### [Exemples d'invites pour GitHub Copilot ChatTrouvez des exemples d'invites à utiliser avec GitHub Copilot Chat.](/fr/copilot/example-prompts-for-github-copilot-chat)
 
-  * ### [Poser des questions à GitHub Copilot dans votre IDEUtilisez Copilot Chat dans votre éditeur pour fournir des suggestions de code, expliquer le code, générer des tests unitaires et suggérer des correctifs de code.](/fr/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
+  * ### [Obtention de suggestions de code dans votre IDE avec GitHub CopilotUtilisez GitHub Copilot pour obtenir des suggestions de code dans votre éditeur.](/fr/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot)
 
 ## Nouveautés
 
 [Afficher tout ](https://github.blog/changelog/label/copilot)
 
-  * [Copilot Immersive update for Copilot Enterprise customersNovember 08](https://github.blog/changelog/2024-11-07-copilot-immersive-update-for-copilot-enterprise-customers)
+  * [GitHub Copilot is now available on your GitHub dashboard in public previewDecember 05](https://github.blog/changelog/2024-12-05-github-copilot-is-now-available-on-your-github-dashboard-in-public-preview)
 
-  * [Copilot subscription-based network routing is now enforcedNovember 04](https://github.blog/changelog/2024-11-04-copilot-subscription-based-network-routing-is-now-enforced)
+  * [Full compatibility and enhanced authentication for GitHub Copilot in JetBrains IDEs 2024.3December 05](https://github.blog/changelog/2024-12-04-full-compatibility-and-enhanced-authentication-for-github-copilot-in-jetbrains-ides-2024-3)
 
-  * [Claude 3.5 Sonnet is now available to all Copilot users in public previewNovember 01](https://github.blog/changelog/2024-11-01-claude-3-5-sonnet-is-now-available-to-all-copilot-users-in-public-preview)
+  * [GitHub Copilot Extensions now supported in JetBrains IDEsDecember 02](https://github.blog/changelog/2024-12-02-github-copilot-extensions-now-supported-in-jetbrains-ides)
 
 ## Tous les documents GitHub Copilot
 
@@ -57,13 +57,13 @@ copilot)[Démarrage rapide ](/fr/copilot/quickstart)
 
   * [Poser des questions à GitHub Copilot dans votre IDE](/fr/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide)
 
-  * [Asking GitHub Copilot questions in GitHub](/fr/copilot/using-github-copilot/asking-github-copilot-questions-in-github)
+  * [Poser des questions à GitHub Copilot dans GitHub](/fr/copilot/using-github-copilot/asking-github-copilot-questions-in-github)
 
   * [Poser des questions à GitHub Copilot dans GitHub Mobile](/fr/copilot/using-github-copilot/asking-github-copilot-questions-in-github-mobile)
 
-  * [Asking GitHub Copilot questions in Windows Terminal](/fr/copilot/using-github-copilot/asking-github-copilot-questions-in-windows-terminal)
+  * [Poser des questions à GitHub Copilot dans Windows Terminal](/fr/copilot/using-github-copilot/asking-github-copilot-questions-in-windows-terminal)
 
-  * [Code review • 2 articles](/fr/copilot/using-github-copilot/code-review)
+  * [Révision du code • 2 articles](/fr/copilot/using-github-copilot/code-review)
 
   * [Utilisation de GitHub Copilot dans la ligne de commande](/fr/copilot/using-github-copilot/using-github-copilot-in-the-command-line)
 
@@ -71,13 +71,28 @@ copilot)[Démarrage rapide ](/fr/copilot/quickstart)
 
   * [Utilisation d’extensions pour intégrer des outils externes à Copilot Chat](/fr/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat)
 
-  * [Using Claude 3.5 Sonnet in GitHub Copilot](/fr/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot)
+  * [Utiliser Claude 3.5 Sonnet dans GitHub Copilot](/fr/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot)
 
   * [Recherche de code public qui correspond aux suggestions de GitHub Copilot](/fr/copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions)
 
-  * [Using GitHub Copilot for pull requests • 2 articles](/fr/copilot/using-github-copilot/using-github-copilot-for-pull-requests)
+  * [Utilisation de GitHub Copilot pour les demandes de tirage • 2 articles](/fr/copilot/using-github-copilot/using-github-copilot-for-pull-requests)
 
-  * [Exemples de cas d’utilisation • 3 articles](/fr/copilot/using-github-copilot/example-use-cases)
+  * [Guides d'utilisation de GitHub Copilot • 3 articles](/fr/copilot/using-github-copilot/guides-on-using-github-copilot)
+
+### [Exemples d'invites pour GitHub Copilot Chat](/fr/copilot/example-prompts-
+for-github-copilot-chat)
+
+  * [Erreurs de débogage • 2 articles](/fr/copilot/example-prompts-for-github-copilot-chat/debugging-errors)
+
+  * [Functionality analysis and feature suggestions • 2 articles](/fr/copilot/example-prompts-for-github-copilot-chat/functionality-analysis-and-feature-suggestions)
+
+  * [Refactorisation du code • 9 articles](/fr/copilot/example-prompts-for-github-copilot-chat/refactoring-code)
+
+  * [Documenter le code • 4 articles](/fr/copilot/example-prompts-for-github-copilot-chat/documenting-code)
+
+  * [Le test du code • 3 articles](/fr/copilot/example-prompts-for-github-copilot-chat/testing-code)
+
+  * [Analyse de la sécurité • 1 articles](/fr/copilot/example-prompts-for-github-copilot-chat/security-analysis)
 
 ### [Gestion de Copilot](/fr/copilot/managing-copilot)
 
@@ -89,9 +104,9 @@ copilot)[Démarrage rapide ](/fr/copilot/quickstart)
 
   * [Configuration des paramètres personnels • 5 articles](/fr/copilot/managing-copilot/configure-personal-settings)
 
-  * [Configuring and auditing content exclusion • 2 articles](/fr/copilot/managing-copilot/configuring-and-auditing-content-exclusion)
+  * [Configuration et audit de l’exclusion de contenu • 2 articles](/fr/copilot/managing-copilot/configuring-and-auditing-content-exclusion)
 
-### [Customizing Copilot](/fr/copilot/customizing-copilot)
+### [Personnalisation de Copilot](/fr/copilot/customizing-copilot)
 
   * [Extension des capacités de GitHub Copilot dans votre organisation](/fr/copilot/customizing-copilot/extending-the-capabilities-of-github-copilot-in-your-organization)
 
@@ -103,9 +118,13 @@ copilot)[Démarrage rapide ](/fr/copilot/quickstart)
 
   * [À propos de la génération d’extensions Copilot](/fr/copilot/building-copilot-extensions/about-building-copilot-extensions)
 
+  * [Démarrage rapide pour les extensions GitHub Copilot](/fr/copilot/building-copilot-extensions/quickstart-for-github-copilot-extensions-using-agents)
+
   * [Configuration des extensions Copilot](/fr/copilot/building-copilot-extensions/setting-up-copilot-extensions)
 
-  * [Création d’un agent Copilot pour votre extension Copilot • 5 articles](/fr/copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension)
+  * [Création d’un agent Copilot pour votre extension Copilot • 4 articles](/fr/copilot/building-copilot-extensions/building-a-copilot-agent-for-your-copilot-extension)
+
+  * [Création d’un agent Copilot pour votre extension Copilot • 2 articles](/fr/copilot/building-copilot-extensions/building-a-copilot-skillset-for-your-copilot-extension)
 
   * [Création d’une extension Copilot • 3 articles](/fr/copilot/building-copilot-extensions/creating-a-copilot-extension)
 
@@ -133,13 +152,13 @@ Copilot](/fr/copilot/responsible-use-of-github-copilot-features)
 
   * [Utilisation responsable de GitHub Copilot Chat dans votre IDE](/fr/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-your-ide)
 
-  * [Responsible use of GitHub Copilot Chat in GitHub](/fr/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-github)
+  * [Utilisation responsable de GitHub Copilot Chat dans GitHub](/fr/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-github)
 
   * [Utilisation responsable de GitHub Copilot Chat sur GitHub Mobile](/fr/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-github-mobile)
 
   * [Utilisation responsable de GitHub Copilot dans le CLI](/fr/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-the-cli)
 
-  * [Responsible use of GitHub Copilot in Windows Terminal](/fr/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-windows-terminal)
+  * [Utilisation responsable de GitHub Copilot dans Windows Terminal](/fr/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-in-windows-terminal)
 
   * [Utilisation responsable des résumés de demandes de tirage de GitHub Copilot](/fr/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-pull-request-summaries)
 
@@ -289,12 +308,12 @@ Utilisez Copilot Chat dans votre éditeur pour fournir des suggestions de code,
 expliquer le code, générer des tests unitaires et suggérer des correctifs de
 code.
 
-## [Asking GitHub Copilot questions in GitHub](/fr/copilot/using-github-
-copilot/asking-github-copilot-questions-in-github)
+## [Poser des questions à GitHub Copilot dans GitHub](/fr/copilot/using-
+github-copilot/asking-github-copilot-questions-in-github)
 
-You can use GitHub Copilot Chat in GitHub to answer general questions about
-software development, or specific questions about the issues or code in a
-repository.
+Vous pouvez utiliser GitHub Copilot Chat in GitHub pour répondre à des
+questions générales sur le développement de logiciels, ou à des questions
+spécifiques sur les problèmes ou le code d’un référentiel.
 
 ## [Poser des questions à GitHub Copilot dans GitHub
 Mobile](/fr/copilot/using-github-copilot/asking-github-copilot-questions-in-
@@ -304,15 +323,16 @@ Vous pouvez utiliser GitHub Copilot Chat in GitHub Mobile pour répondre aux
 questions d’ordre général sur le développement logiciel, ou aux questions
 spécifiques sur le code d’un référentiel.
 
-## [Asking GitHub Copilot questions in Windows Terminal](/fr/copilot/using-
-github-copilot/asking-github-copilot-questions-in-windows-terminal)
+## [Poser des questions à GitHub Copilot dans Windows
+Terminal](/fr/copilot/using-github-copilot/asking-github-copilot-questions-in-
+windows-terminal)
 
-You can use Copilot in Windows Terminal to get suggestions and explanations
-for the command line.
+Vous pouvez utiliser Copilot dans Windows Terminal pour obtenir des
+suggestions et des explications sur la ligne de commande.
 
-## [Code review](/fr/copilot/using-github-copilot/code-review)
+## [Révision du code](/fr/copilot/using-github-copilot/code-review)
 
-Learn how to request a code review from GitHub Copilot.
+Découvrez comment demander une revue à partir de GitHub Copilot.
 
 ## [Utilisation de GitHub Copilot dans la ligne de
 commande](/fr/copilot/using-github-copilot/using-github-copilot-in-the-
@@ -333,29 +353,31 @@ tools-with-copilot-chat)
 Vous pouvez utiliser Copilot Extensions pour interagir avec des outils
 externes dans GitHub Copilot Chat.
 
-## [Using Claude 3.5 Sonnet in GitHub Copilot](/fr/copilot/using-github-
+## [Utiliser Claude 3.5 Sonnet dans GitHub Copilot](/fr/copilot/using-github-
 copilot/using-claude-sonnet-in-github-copilot)
 
-Learn how to enable Claude 3.5 Sonnet for yourself or your organization.
+Découvrez comment activer Claude 3.5 Sonnet pour vous ou votre organisation.
 
 ## [Recherche de code public qui correspond aux suggestions de GitHub
 Copilot](/fr/copilot/using-github-copilot/finding-public-code-that-matches-
 github-copilot-suggestions)
 
 Si vous autorisez GitHub Copilot à faire des suggestions qui correspondent à
-du code accessible au public, vous verrez des références au code correspondant
-qui a été trouvé sur GitHub.com.
+du code accessible au public, Copilot affichera des références à tout code
+correspondant trouvé.
 
-## [Using GitHub Copilot for pull requests](/fr/copilot/using-github-
-copilot/using-github-copilot-for-pull-requests)
+## [Utilisation de GitHub Copilot pour les demandes de
+tirage](/fr/copilot/using-github-copilot/using-github-copilot-for-pull-
+requests)
 
-Learn how Copilot can help you work on pull requests.
+Découvrez comment Copilot peut vous aider à travailler sur les demandes de
+tirage.
 
-## [Exemples de cas d’utilisation](/fr/copilot/using-github-copilot/example-
-use-cases)
+## [Guides d'utilisation de GitHub Copilot](/fr/copilot/using-github-
+copilot/guides-on-using-github-copilot)
 
-Découvrez les bonnes utilisations de GitHub Copilot, et obtenez des exemples
-d'invites.
+Apprenez à optimiser votre utilisation de GitHub Copilot pour différents cas
+d'utilisation.
 
 ## Aide et support
 
@@ -385,20 +407,21 @@ GitHub](https://github.com/orgs/community/discussions)
 
 
 
-# Code review
+# Révision du code
 
-Learn how to request a code review from GitHub Copilot.
+Découvrez comment demander une revue à partir de GitHub Copilot.
 
 ## [Utiliser la revue de code GitHub Copilot](/fr/copilot/using-github-
 copilot/code-review/using-copilot-code-review)
 
 Apprenez à demander une révision de code à partir de GitHub Copilot.
 
-## [Configuring coding guidelines for GitHub Copilot code
-review](/fr/copilot/using-github-copilot/code-review/configuring-coding-
+## [Configuration des règles de codage pour la revue de code GitHub
+Copilot](/fr/copilot/using-github-copilot/code-review/configuring-coding-
 guidelines)
 
-Learn how to customize Copilot code review with custom coding guidelines.
+Découvrez comment personnaliser Révision du code Copilot avec des instructions
+de codage personnalisées.
 
 ## Aide et support
 
@@ -428,16 +451,17 @@ GitHub](https://github.com/orgs/community/discussions)
 
 
 
-# Using GitHub Copilot for pull requests
+# Utilisation de GitHub Copilot pour les demandes de tirage
 
-Learn how Copilot can help you work on pull requests.
+Découvrez comment Copilot peut vous aider à travailler sur les demandes de
+tirage.
 
-## [Using Copilot to help you work on a pull request](/fr/copilot/using-
-github-copilot/using-github-copilot-for-pull-requests/using-copilot-to-help-
-you-work-on-a-pull-request)
+## [Utiliser Copilot pour vous aider à travailler sur une demande de
+tirage](/fr/copilot/using-github-copilot/using-github-copilot-for-pull-
+requests/using-copilot-to-help-you-work-on-a-pull-request)
 
-You can iterate, validate, and integrate suggested changes to code by using
-Copilot Workspace.
+Vous pouvez itérer, valider et intégrer les modifications suggérées au code en
+utilisant Copilot Workspace.
 
 ## [Création d’un résumé de demande de tirage avec GitHub
 Copilot](/fr/copilot/using-github-copilot/using-github-copilot-for-pull-
@@ -474,27 +498,361 @@ GitHub](https://github.com/orgs/community/discussions)
 
 
 
-# Exemples de cas d’utilisation
+# Guides d'utilisation de GitHub Copilot
 
-Découvrez les bonnes utilisations de GitHub Copilot, et obtenez des exemples
-d'invites.
+Apprenez à optimiser votre utilisation de GitHub Copilot pour différents cas
+d'utilisation.
 
-## [Exemples d'invites pour Copilot Chat](/fr/copilot/using-github-
-copilot/example-use-cases/example-prompts-for-copilot-chat)
+## [Démarrer avec les invites pour Copilot Chat](/fr/copilot/using-github-
+copilot/guides-on-using-github-copilot/getting-started-with-prompts-for-
+copilot-chat)
 
-Obtenez des exemples d'invites et de cas d'utilisation pour Copilot Chat.
+Obtenez un aperçu des façons d'utiliser Copilot Chat.
 
 ## [Refactorisation du code avec GitHub Copilot](/fr/copilot/using-github-
-copilot/example-use-cases/refactoring-code-with-github-copilot)
+copilot/guides-on-using-github-copilot/refactoring-code-with-github-copilot)
 
 Tirez parti de l’intelligence artificielle Copilot pour vous aider à
 refactoriser votre code rapidement et efficacement.
 
-## [Writing tests with GitHub Copilot](/fr/copilot/using-github-
-copilot/example-use-cases/writing-tests-with-github-copilot)
+## [Écrire des tests avec GitHub Copilot](/fr/copilot/using-github-
+copilot/guides-on-using-github-copilot/writing-tests-with-github-copilot)
 
-Use Copilot to generate unit and integration tests, and help improve code
-quality.
+Utilisez Copilot pour générer des tests unitaires et d'intégration et
+améliorer la qualité du code.
+
+## Aide et support
+
+### Avez-vous trouvé ce dont vous aviez besoin ?
+
+Oui Non
+
+[Politique de confidentialité](/fr/site-policy/privacy-policies/github-
+privacy-statement)
+
+### Encore besoin d’aide ?
+
+[Demander à la communauté
+GitHub](https://github.com/orgs/community/discussions)
+
+[Contacter le support technique](https://support.github.com)
+
+## Informations juridiques
+
+  * © 2024 GitHub, Inc.
+  * [Termes](/fr/site-policy/github-terms/github-terms-of-service)
+  * [Confidentialité](/fr/site-policy/privacy-policies/github-privacy-statement)
+  * [Statut](https://www.githubstatus.com/)
+  * [Tarifs](https://github.com/pricing)
+  * [Services d’experts](https://services.github.com)
+  * [Blog](https://github.blog)
+
+
+
+# Erreurs de débogage
+
+Découvrez comment vous pouvez utiliser GitHub Copilot pour déboguer les
+erreurs pendant le développement.
+
+## [Débogage de JSON invalide](/fr/copilot/example-prompts-for-github-copilot-
+chat/debugging-errors/debugging-invalid-json)
+
+Copilot Chat peut identifier et résoudre les erreurs de syntaxe ou les
+problèmes structurels dans les données JSON.
+
+## [Gestion des limites de taux de l'API](/fr/copilot/example-prompts-for-
+github-copilot-chat/debugging-errors/handling-api-rate-limits)
+
+Copilot Chat peut aider à gérer les limites de taux de l'API en suggérant un
+code qui détecte et met en œuvre une logique de réessai.
+
+## Aide et support
+
+### Avez-vous trouvé ce dont vous aviez besoin ?
+
+Oui Non
+
+[Politique de confidentialité](/fr/site-policy/privacy-policies/github-
+privacy-statement)
+
+### Encore besoin d’aide ?
+
+[Demander à la communauté
+GitHub](https://github.com/orgs/community/discussions)
+
+[Contacter le support technique](https://support.github.com)
+
+## Informations juridiques
+
+  * © 2024 GitHub, Inc.
+  * [Termes](/fr/site-policy/github-terms/github-terms-of-service)
+  * [Confidentialité](/fr/site-policy/privacy-policies/github-privacy-statement)
+  * [Statut](https://www.githubstatus.com/)
+  * [Tarifs](https://github.com/pricing)
+  * [Services d’experts](https://services.github.com)
+  * [Blog](https://github.blog)
+
+
+
+# Functionality analysis and feature suggestions
+
+Discover ways that you can use GitHub Copilot to improve the functionality of
+your project.
+
+## [Exploring potential feature implementations](/fr/copilot/example-prompts-
+for-github-copilot-chat/functionality-analysis-and-feature-
+suggestions/exploring-potential-feature-implementations)
+
+Copilot Chat can help explore different approaches for implementing a single
+feature.
+
+## [Analyzing and incorporating user feedback](/fr/copilot/example-prompts-
+for-github-copilot-chat/functionality-analysis-and-feature-
+suggestions/analyzing-and-incorporating-user-feedback)
+
+Copilot Chat can enhance the process of incorporating user feedback into your
+project.
+
+## Aide et support
+
+### Avez-vous trouvé ce dont vous aviez besoin ?
+
+Oui Non
+
+[Politique de confidentialité](/fr/site-policy/privacy-policies/github-
+privacy-statement)
+
+### Encore besoin d’aide ?
+
+[Demander à la communauté
+GitHub](https://github.com/orgs/community/discussions)
+
+[Contacter le support technique](https://support.github.com)
+
+## Informations juridiques
+
+  * © 2024 GitHub, Inc.
+  * [Termes](/fr/site-policy/github-terms/github-terms-of-service)
+  * [Confidentialité](/fr/site-policy/privacy-policies/github-privacy-statement)
+  * [Statut](https://www.githubstatus.com/)
+  * [Tarifs](https://github.com/pricing)
+  * [Services d’experts](https://services.github.com)
+  * [Blog](https://github.blog)
+
+
+
+# Refactorisation du code
+
+Découvrez comment vous pouvez utiliser GitHub Copilot pour remanier votre
+code.
+
+## [Amélioration de la lisibilité du code et de la
+maintenance](/fr/copilot/example-prompts-for-github-copilot-chat/refactoring-
+code/improving-code-readability-and-maintainability)
+
+Copilot Chat peut suggérer des moyens de rendre votre code plus facile à
+comprendre et à maintenir.
+
+## [Correction des erreurs de lint](/fr/copilot/example-prompts-for-github-
+copilot-chat/refactoring-code/fixing-lint-errors)
+
+Copilot Chat peut suggérer des moyens de résoudre les problèmes identifiés par
+un codeur.
+
+## [Refonte pour l'optimisation des performances](/fr/copilot/example-prompts-
+for-github-copilot-chat/refactoring-code/refactoring-for-performance-
+optimization)
+
+Copilot Chat peut suggérer des moyens d'accélérer le code qui tourne
+lentement.
+
+## [Refactorisation pour implémenter un modèle de
+conception](/fr/copilot/example-prompts-for-github-copilot-chat/refactoring-
+code/refactoring-to-implement-a-design-pattern)
+
+Copilot Chat peut suggérer des modèles de conception que vous pouvez utiliser
+pour améliorer votre code.
+
+## [Refactorisation des couches d’accès aux données](/fr/copilot/example-
+prompts-for-github-copilot-chat/refactoring-code/refactoring-data-access-
+layers)
+
+Copilot Chat peut suggérer des moyens de découpler votre code d'accès aux
+données de votre logique commerciale, ce qui facilite la maintenance et
+l'évolution de l'application.
+
+## [Découpler la logique métier des composants de l'interface
+utilisateur](/fr/copilot/example-prompts-for-github-copilot-chat/refactoring-
+code/decoupling-business-logic-from-ui-components)
+
+Copilot Chat peut vous aider à séparer votre logique commerciale du code de
+l'interface utilisateur, ce qui facilite la maintenance et l'évolution de
+votre application.
+
+## [Handling cross-cutting concerns](/fr/copilot/example-prompts-for-github-
+copilot-chat/refactoring-code/handling-cross-cutting-concerns)
+
+Copilot Chat can help you avoid code that relates to a concern other than the
+core concern of the method or function in which the code is located.
+
+## [Simplifying complex inheritance hierarchies](/fr/copilot/example-prompts-
+for-github-copilot-chat/refactoring-code/simplifying-complex-inheritance-
+hierarchies)
+
+Copilot Chat can help you to refactor code to avoid classes with multiple
+layers of inheritance.
+
+## [Fixing database deadlocks or data integrity issues](/fr/copilot/example-
+prompts-for-github-copilot-chat/refactoring-code/fixing-database-deadlocks-or-
+data-integrity-issues)
+
+Copilot Chat can help you avoid code that causes slow or blocked database
+operations, or tables with missing or incorrect data.
+
+## Aide et support
+
+### Avez-vous trouvé ce dont vous aviez besoin ?
+
+Oui Non
+
+[Politique de confidentialité](/fr/site-policy/privacy-policies/github-
+privacy-statement)
+
+### Encore besoin d’aide ?
+
+[Demander à la communauté
+GitHub](https://github.com/orgs/community/discussions)
+
+[Contacter le support technique](https://support.github.com)
+
+## Informations juridiques
+
+  * © 2024 GitHub, Inc.
+  * [Termes](/fr/site-policy/github-terms/github-terms-of-service)
+  * [Confidentialité](/fr/site-policy/privacy-policies/github-privacy-statement)
+  * [Statut](https://www.githubstatus.com/)
+  * [Tarifs](https://github.com/pricing)
+  * [Services d’experts](https://services.github.com)
+  * [Blog](https://github.blog)
+
+
+
+# Documenter le code
+
+Découvrez comment utiliser GitHub Copilot Chat pour documenter votre code.
+
+## [Documenter le code existant](/fr/copilot/example-prompts-for-github-
+copilot-chat/documenting-code/documenting-legacy-code)
+
+Copilot Chat peut aider à documenter le code existant.
+
+## [Explication du code hérité](/fr/copilot/example-prompts-for-github-
+copilot-chat/documenting-code/explaining-legacy-code)
+
+Copilot Chat peut aider à expliquer un code peu familier.
+
+## [Explication d’algorithmes complexes ou de logique](/fr/copilot/example-
+prompts-for-github-copilot-chat/documenting-code/explaining-complex-
+algorithms-or-logic)
+
+Copilot Chat peut aider à ajouter une documentation claire et concise sur des
+algorithmes ou une logique complexes.
+
+## [Synchronisation de la documentation avec les modifications du
+code](/fr/copilot/example-prompts-for-github-copilot-chat/documenting-
+code/syncing-documentation-with-code-changes)
+
+Copilot Chat peut aider à maintenir la documentation du code à jour.
+
+## Aide et support
+
+### Avez-vous trouvé ce dont vous aviez besoin ?
+
+Oui Non
+
+[Politique de confidentialité](/fr/site-policy/privacy-policies/github-
+privacy-statement)
+
+### Encore besoin d’aide ?
+
+[Demander à la communauté
+GitHub](https://github.com/orgs/community/discussions)
+
+[Contacter le support technique](https://support.github.com)
+
+## Informations juridiques
+
+  * © 2024 GitHub, Inc.
+  * [Termes](/fr/site-policy/github-terms/github-terms-of-service)
+  * [Confidentialité](/fr/site-policy/privacy-policies/github-privacy-statement)
+  * [Statut](https://www.githubstatus.com/)
+  * [Tarifs](https://github.com/pricing)
+  * [Services d’experts](https://services.github.com)
+  * [Blog](https://github.blog)
+
+
+
+# Le test du code
+
+Découvrez comment utiliser GitHub Copilot pour tester votre code.
+
+## [Générer des tests unitaires](/fr/copilot/example-prompts-for-github-
+copilot-chat/testing-code/generate-unit-tests)
+
+Copilot Chat peut aider à générer des tests unitaires pour une fonction.
+
+## [Créer des objets fictifs dans des couches abstraites](/fr/copilot/example-
+prompts-for-github-copilot-chat/testing-code/create-mock-objects-to-abstract-
+layers)
+
+Copilot Chat peut aider à créer des objets fictifs que vous pouvez utiliser
+pour les tests unitaires.
+
+## [Créer des tests de bout en bout pour une page web](/fr/copilot/example-
+prompts-for-github-copilot-chat/testing-code/create-end-to-end-tests-for-a-
+webpage)
+
+Copilot Chat peut aider à générer des tests de bout en bout.
+
+## Aide et support
+
+### Avez-vous trouvé ce dont vous aviez besoin ?
+
+Oui Non
+
+[Politique de confidentialité](/fr/site-policy/privacy-policies/github-
+privacy-statement)
+
+### Encore besoin d’aide ?
+
+[Demander à la communauté
+GitHub](https://github.com/orgs/community/discussions)
+
+[Contacter le support technique](https://support.github.com)
+
+## Informations juridiques
+
+  * © 2024 GitHub, Inc.
+  * [Termes](/fr/site-policy/github-terms/github-terms-of-service)
+  * [Confidentialité](/fr/site-policy/privacy-policies/github-privacy-statement)
+  * [Statut](https://www.githubstatus.com/)
+  * [Tarifs](https://github.com/pricing)
+  * [Services d’experts](https://services.github.com)
+  * [Blog](https://github.blog)
+
+
+
+# Analyse de la sécurité
+
+Découvrez comment vous pouvez utiliser GitHub Copilot pour améliorer la
+sécurité du code.
+
+## [Recherche de vulnérabilités existantes dans le code](/fr/copilot/example-
+prompts-for-github-copilot-chat/security-analysis/finding-existing-
+vulnerabilities-in-code)
+
+Copilot Chat peut vous aider à trouver des vulnérabilités courantes dans votre
+code et à suggérer des correctifs.
 
 ## Aide et support
 
@@ -552,11 +910,11 @@ copilot/configure-personal-settings)
 Vous pouvez gérer la configuration de GitHub Copilot dans un IDE pris en
 charge ou sur GitHub.
 
-## [Configuring and auditing content exclusion](/fr/copilot/managing-
+## [Configuration et audit de l’exclusion de contenu](/fr/copilot/managing-
 copilot/configuring-and-auditing-content-exclusion)
 
-You can prevent Copilot from accessing certain content, and review any changes
-to these settings.
+Vous pouvez empêcher Copilot d'accéder à certains contenus et vérifier les
+modifications apportées à ces paramètres.
 
 ## Aide et support
 
@@ -638,11 +996,12 @@ organization/managing-the-copilot-subscription-for-your-organization)
 Les propriétaires d'organisations peuvent gérer l’abonnement Copilot pour leur
 organisation.
 
-## [Managing policies for Copilot in your organization](/fr/copilot/managing-
-copilot/managing-github-copilot-in-your-organization/managing-policies-for-
-copilot-in-your-organization)
+## [Stratégies de gestion pour Copilot dans votre
+organisation](/fr/copilot/managing-copilot/managing-github-copilot-in-your-
+organization/managing-policies-for-copilot-in-your-organization)
 
-Learn how to manage policies for GitHub Copilot in your organization.
+Découvrez comment gérer les stratégies pour GitHub Copilot dans votre
+organisation.
 
 ## [Configuration de votre serveur proxy ou pare-feu pour
 Copilot](/fr/copilot/managing-copilot/managing-github-copilot-in-your-
@@ -815,23 +1174,23 @@ GitHub](https://github.com/orgs/community/discussions)
 
 
 
-# Configuring and auditing content exclusion
+# Configuration et audit de l’exclusion de contenu
 
-You can prevent Copilot from accessing certain content, and review any changes
-to these settings.
+Vous pouvez empêcher Copilot d'accéder à certains contenus et vérifier les
+modifications apportées à ces paramètres.
 
-## [Excluding content from GitHub Copilot](/fr/copilot/managing-
+## [Exclusion de contenu de GitHub Copilot](/fr/copilot/managing-
 copilot/configuring-and-auditing-content-exclusion/excluding-content-from-
 github-copilot)
 
-You can prevent Copilot from accessing certain content.
+Vous pouvez empêcher Copilot d'accéder à certains contenus.
 
-## [Reviewing changes to content exclusions for GitHub
+## [Examen des modifications d'exclusions de contenu pour GitHub
 Copilot](/fr/copilot/managing-copilot/configuring-and-auditing-content-
 exclusion/reviewing-changes-to-content-exclusions-for-github-copilot)
 
-You can monitor changes to content exclusions in your repositories and
-organizations.
+Vous pouvez surveiller les modifications d’exclusions de contenu dans vos
+référentiels et organisations.
 
 ## Aide et support
 
@@ -861,9 +1220,10 @@ GitHub](https://github.com/orgs/community/discussions)
 
 
 
-# Customizing Copilot
+# Personnalisation de Copilot
 
-You can customize GitHub Copilot to make it fit your specific needs.
+Vous pouvez personnaliser GitHub Copilot pour l’adapter à vos besoins
+spécifiques.
 
 ## [Extension des capacités de GitHub Copilot dans votre
 organisation](/fr/copilot/customizing-copilot/extending-the-capabilities-of-
@@ -921,6 +1281,12 @@ copilot-extensions/about-building-copilot-extensions)
 
 Découvrez le processus de développement pour Copilot Extensions.
 
+## [Démarrage rapide pour les extensions GitHub Copilot](/fr/copilot/building-
+copilot-extensions/quickstart-for-github-copilot-extensions-using-agents)
+
+Construisez et essayez l'extension Blackbeard de GitHub pour découvrir le
+processus de développement de GitHub Copilot Extensions.
+
 ## [Configuration des extensions Copilot](/fr/copilot/building-copilot-
 extensions/setting-up-copilot-extensions)
 
@@ -932,6 +1298,13 @@ your-copilot-extension)
 
 Apprenez à créer un Copilot agent personnalisé qui détermine la fonctionnalité
 de votre Copilot Extension.
+
+## [Création d’un agent Copilot pour votre extension
+Copilot](/fr/copilot/building-copilot-extensions/building-a-copilot-skillset-
+for-your-copilot-extension)
+
+Découvrez comment créer un Copilot skillset pour combiner des compétences
+personnalisées et étendre les fonctionnalités de Copilot.
 
 ## [Création d’une extension Copilot](/fr/copilot/building-copilot-
 extensions/creating-a-copilot-extension)
@@ -997,13 +1370,6 @@ agents)
 Découvrez ce que sont les GitHub Copilot agents et comment ils peuvent
 améliorer votre expérience de GitHub Copilot Chat.
 
-## [Utilisation d’un agent de démonstration](/fr/copilot/building-copilot-
-extensions/building-a-copilot-agent-for-your-copilot-extension/using-a-demo-
-agent)
-
-Découvrez comment utiliser un agent de démonstration pour explorer le
-fonctionnement de Copilot Extensions.
-
 ## [Configuration de votre agent Copilot pour communiquer avec la plateforme
 Copilot](/fr/copilot/building-copilot-extensions/building-a-copilot-agent-for-
 your-copilot-extension/configuring-your-copilot-agent-to-communicate-with-the-
@@ -1054,17 +1420,65 @@ GitHub](https://github.com/orgs/community/discussions)
 
 
 
+# Création d’un agent Copilot pour votre extension Copilot
+
+Découvrez comment créer un Copilot skillset pour combiner des compétences
+personnalisées et étendre les fonctionnalités de Copilot.
+
+## [Ensembles de compétences Copilot](/fr/copilot/building-copilot-
+extensions/building-a-copilot-skillset-for-your-copilot-extension/about-
+copilot-skillsets)
+
+Découvrez les Github Copilot skillsets et comment elles simplifient
+l’intégration d’outils et de fonctions tiers dans votre expérience Copilot
+experience.
+
+## [Ensembles de compétences Copilot](/fr/copilot/building-copilot-
+extensions/building-a-copilot-skillset-for-your-copilot-extension/building-
+copilot-skillsets)
+
+Découvrez les étapes permettant de générer Github Copilot skillsets et
+d’intégrer des outils et fonctions personnalisés dans votre environnement
+Copilot.
+
+## Aide et support
+
+### Avez-vous trouvé ce dont vous aviez besoin ?
+
+Oui Non
+
+[Politique de confidentialité](/fr/site-policy/privacy-policies/github-
+privacy-statement)
+
+### Encore besoin d’aide ?
+
+[Demander à la communauté
+GitHub](https://github.com/orgs/community/discussions)
+
+[Contacter le support technique](https://support.github.com)
+
+## Informations juridiques
+
+  * © 2024 GitHub, Inc.
+  * [Termes](/fr/site-policy/github-terms/github-terms-of-service)
+  * [Confidentialité](/fr/site-policy/privacy-policies/github-privacy-statement)
+  * [Statut](https://www.githubstatus.com/)
+  * [Tarifs](https://github.com/pricing)
+  * [Services d’experts](https://services.github.com)
+  * [Blog](https://github.blog)
+
+
+
 # Création d’une extension Copilot
 
 Apprenez à intégrer votre Copilot agent avec une GitHub App pour créer votre
 Copilot Extension.
 
-## [Configuration de votre serveur pour déployer votre agent
+## [Configuration de votre serveur pour héberger votre agent
 Copilot](/fr/copilot/building-copilot-extensions/creating-a-copilot-
-extension/configuring-your-server-to-deploy-your-copilot-agent)
+extension/configuring-your-server-to-host-your-copilot-extension)
 
-Apprenez à déployer votre agent Copilot sur un serveur accessible par
-internet.
+Découvrez comment rendre votre agent Copilot accessible à Internet.
 
 ## [Création d’une application GitHub pour votre extension
 Copilot](/fr/copilot/building-copilot-extensions/creating-a-copilot-
@@ -1074,10 +1488,10 @@ Découvrez comment créer une GitHub App pour votre Copilot Extension.
 
 ## [Configuration de votre application GitHub pour votre agent
 Copilot](/fr/copilot/building-copilot-extensions/creating-a-copilot-
-extension/configuring-your-github-app-for-your-copilot-agent)
+extension/configuring-your-github-app-for-your-copilot-extension)
 
-Apprenez à configurer votre GitHub App pour qu’elle soit associée à votre
-Copilot agent.
+Apprenez à configurer votre GitHub App pour qu'elle soit associée à votre
+Copilot Extension.
 
 ## Aide et support
 
@@ -1186,12 +1600,12 @@ of-github-copilot-chat-in-your-ide)
 Découvrez comment utiliser GitHub Copilot Chat de manière responsable en
 comprenant ses objectifs, ses capacités et ses limites.
 
-## [Responsible use of GitHub Copilot Chat in GitHub](/fr/copilot/responsible-
-use-of-github-copilot-features/responsible-use-of-github-copilot-chat-in-
-github)
+## [Utilisation responsable de GitHub Copilot Chat dans
+GitHub](/fr/copilot/responsible-use-of-github-copilot-features/responsible-
+use-of-github-copilot-chat-in-github)
 
-Learn how to use GitHub Copilot Chat in GitHub responsibly by understanding
-its purposes, capabilities, and limitations.
+Découvrez comment utiliser GitHub Copilot Chat in GitHub de manière
+responsable en comprenant ses objectifs, ses capacités et ses limites.
 
 ## [Utilisation responsable de GitHub Copilot Chat sur GitHub
 Mobile](/fr/copilot/responsible-use-of-github-copilot-features/responsible-
@@ -1207,12 +1621,12 @@ of-github-copilot-in-the-cli)
 Découvrez comment utiliser GitHub Copilot in the CLI de manière responsable en
 comprenant ses objectifs, ses capacités et ses limites.
 
-## [Responsible use of GitHub Copilot in Windows
+## [Utilisation responsable de GitHub Copilot dans Windows
 Terminal](/fr/copilot/responsible-use-of-github-copilot-features/responsible-
 use-of-github-copilot-in-windows-terminal)
 
-Learn how to use GitHub Copilot responsibly by understanding its purposes,
-capabilities, and limitations.
+Apprenez à utiliser GitHub Copilot de manière responsable en comprenant ses
+objectifs, ses capacités et ses limites.
 
 ## [Utilisation responsable des résumés de demandes de tirage de GitHub
 Copilot](/fr/copilot/responsible-use-of-github-copilot-features/responsible-
@@ -1232,8 +1646,8 @@ comprenant ses objectifs, ses capacités et ses limites.
 Copilot](/fr/copilot/responsible-use-of-github-copilot-features/responsible-
 use-of-github-copilot-code-review)
 
-Apprenez à utiliser GitHub Copilot code review de manière sûre et responsable
-en comprenant ses objectifs, ses capacités et ses limites.
+Apprenez à utiliser Révision du code GitHub Copilot de manière sûre et
+responsable en comprenant ses objectifs, ses capacités et ses limites.
 
 ## Aide et support
 
