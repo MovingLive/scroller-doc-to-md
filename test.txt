@@ -1,0 +1,21 @@
+Create a landing page on vue js and bootstrap who list next live sport courses.
+
+A sport have those datas:
+* an image of sport
+* name of sport
+* name of coach
+* Date of the course
+* duration
+* price
+* enter or book button, depend if it's available now or not.
+
+I want special effect for available courses and short them first.
+Show other courses after
+
+If not available courses, display a prominent countdown timer
+Show the next upcoming course details:
+Coach name
+Sport type
+Starting date/time
+Add a "Remind Me" button
+Include an engaging message encouraging users to book future sessions

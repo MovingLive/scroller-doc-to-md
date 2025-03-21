@@ -5,8 +5,8 @@
             "request": "launch",
             "name": "Launch script.py",
             "program": "${workspaceFolder}/src/script.py",
-            "console": "integratedTerminal",
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/.env",
+            "console": "internalConsole"
         }
     ]
 }

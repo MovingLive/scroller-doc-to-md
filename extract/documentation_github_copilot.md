@@ -19,7 +19,7 @@ copilot)[Démarrage rapide ](/fr/copilot/quickstart)
 
   * ### [Ingénierie d’invite pour GitHub CopilotSuivez ces stratégies pour améliorer vos résultats Copilot.](/fr/copilot/using-github-copilot/prompt-engineering-for-github-copilot)
 
-  * ### [Exemples d'invites pour GitHub Copilot ChatTrouvez des exemples d'invites à utiliser avec GitHub Copilot Chat.](/fr/copilot/example-prompts-for-github-copilot-chat)
+  * ### [Livre de recettes de Copilot ChatTrouvez des exemples d'invites à utiliser avec GitHub Copilot Chat.](/fr/copilot/example-prompts-for-github-copilot-chat)
 
   * ### [Obtention de suggestions de code dans votre IDE avec GitHub CopilotUtilisez GitHub Copilot pour obtenir des suggestions de code dans votre éditeur.](/fr/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot)
 
@@ -27,11 +27,11 @@ copilot)[Démarrage rapide ](/fr/copilot/quickstart)
 
 [Afficher tout ](https://github.blog/changelog/label/copilot)
 
-  * [GitHub Copilot is now available on your GitHub dashboard in public previewDecember 05](https://github.blog/changelog/2024-12-05-github-copilot-is-now-available-on-your-github-dashboard-in-public-preview)
+  * [Announcing GitHub Copilot FreeDecember 18](https://github.blog/changelog/2024-12-18-announcing-github-copilot-free)
 
-  * [Full compatibility and enhanced authentication for GitHub Copilot in JetBrains IDEs 2024.3December 05](https://github.blog/changelog/2024-12-04-full-compatibility-and-enhanced-authentication-for-github-copilot-in-jetbrains-ides-2024-3)
+  * [Copilot Chat on GitHub is now generally available for all usersDecember 18](https://github.blog/changelog/2024-12-18-copilot-chat-on-github-is-now-generally-available-for-all-users)
 
-  * [GitHub Copilot Extensions now supported in JetBrains IDEsDecember 02](https://github.blog/changelog/2024-12-02-github-copilot-extensions-now-supported-in-jetbrains-ides)
+  * [Copilot Autofix can now be generated with the REST API (Public Preview)December 17](https://github.blog/changelog/2024-12-17-copilot-autofix-can-now-be-generated-with-the-rest-api-public-preview)
 
 ## Tous les documents GitHub Copilot
 
@@ -63,6 +63,8 @@ copilot)[Démarrage rapide ](/fr/copilot/quickstart)
 
   * [Poser des questions à GitHub Copilot dans Windows Terminal](/fr/copilot/using-github-copilot/asking-github-copilot-questions-in-windows-terminal)
 
+  * [Indexing repositories for Copilot Chat](/fr/copilot/using-github-copilot/indexing-repositories-for-copilot-chat)
+
   * [Révision du code • 2 articles](/fr/copilot/using-github-copilot/code-review)
 
   * [Utilisation de GitHub Copilot dans la ligne de commande](/fr/copilot/using-github-copilot/using-github-copilot-in-the-command-line)
@@ -79,12 +81,12 @@ copilot)[Démarrage rapide ](/fr/copilot/quickstart)
 
   * [Guides d'utilisation de GitHub Copilot • 3 articles](/fr/copilot/using-github-copilot/guides-on-using-github-copilot)
 
-### [Exemples d'invites pour GitHub Copilot Chat](/fr/copilot/example-prompts-
-for-github-copilot-chat)
+### [Livre de recettes de Copilot Chat](/fr/copilot/example-prompts-for-
+github-copilot-chat)
 
   * [Erreurs de débogage • 2 articles](/fr/copilot/example-prompts-for-github-copilot-chat/debugging-errors)
 
-  * [Functionality analysis and feature suggestions • 2 articles](/fr/copilot/example-prompts-for-github-copilot-chat/functionality-analysis-and-feature-suggestions)
+  * [Analyse de la fonctionnalité et suggestions de fonctionnalités • 2 articles](/fr/copilot/example-prompts-for-github-copilot-chat/functionality-analysis-and-feature-suggestions)
 
   * [Refactorisation du code • 9 articles](/fr/copilot/example-prompts-for-github-copilot-chat/refactoring-code)
 
@@ -100,17 +102,15 @@ for-github-copilot-chat)
 
   * [Gestion de GitHub Copilot dans votre organisation • 5 articles](/fr/copilot/managing-copilot/managing-github-copilot-in-your-organization)
 
-  * [Gestion de Copilot en tant qu’abonné individuel • 3 articles](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber)
+  * [Gestion de Copilot en tant qu’abonné individuel • 4 articles](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber)
 
-  * [Configuration des paramètres personnels • 5 articles](/fr/copilot/managing-copilot/configure-personal-settings)
+  * [Configuration des paramètres personnels • 6 articles](/fr/copilot/managing-copilot/configure-personal-settings)
 
   * [Configuration et audit de l’exclusion de contenu • 2 articles](/fr/copilot/managing-copilot/configuring-and-auditing-content-exclusion)
 
 ### [Personnalisation de Copilot](/fr/copilot/customizing-copilot)
 
   * [Extension des capacités de GitHub Copilot dans votre organisation](/fr/copilot/customizing-copilot/extending-the-capabilities-of-github-copilot-in-your-organization)
-
-  * [Indexation de référentiels pour Copilot Chat](/fr/copilot/customizing-copilot/indexing-repositories-for-copilot-chat)
 
   * [Ajouter des instructions personnalisées pour GitHub Copilot](/fr/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot)
 
@@ -165,6 +165,76 @@ Copilot](/fr/copilot/responsible-use-of-github-copilot-features)
   * [Utilisation responsable de la saisie semi-automatique de texte GitHub Copilot](/fr/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-text-completion)
 
   * [Utilisation responsable de la revue de code GitHub Copilot](/fr/copilot/responsible-use-of-github-copilot-features/responsible-use-of-github-copilot-code-review)
+
+## Aide et support
+
+### Avez-vous trouvé ce dont vous aviez besoin ?
+
+Oui Non
+
+[Politique de confidentialité](/fr/site-policy/privacy-policies/github-
+privacy-statement)
+
+### Encore besoin d’aide ?
+
+[Demander à la communauté
+GitHub](https://github.com/orgs/community/discussions)
+
+[Contacter le support technique](https://support.github.com)
+
+## Informations juridiques
+
+  * © 2024 GitHub, Inc.
+  * [Termes](/fr/site-policy/github-terms/github-terms-of-service)
+  * [Confidentialité](/fr/site-policy/privacy-policies/github-privacy-statement)
+  * [Statut](https://www.githubstatus.com/)
+  * [Tarifs](https://github.com/pricing)
+  * [Services d’experts](https://services.github.com)
+  * [Blog](https://github.blog)
+
+
+
+# Livre de recettes de Copilot Chat
+
+Trouvez des exemples d'invites à utiliser avec GitHub Copilot Chat.
+
+## Spotlight
+
+![Generate unit tests](/assets/images/copilot-
+landing/generating_unit_tests.png)
+
+### [Generate unit tests](/en/copilot/example-prompts-for-github-copilot-
+chat/testing-code/generate-unit-tests)
+
+Copilot Chat can help with generating unit tests for a function.
+
+![Improving code readability and maintainability](/assets/images/copilot-
+landing/improving_code_readability.png)
+
+### [Improving code readability and maintainability](/en/copilot/example-
+prompts-for-github-copilot-chat/refactoring-code/improving-code-readability-
+and-maintainability)
+
+Learn how to improve your code readability and maintainability.
+
+![Debugging invalid JSON](/assets/images/copilot-
+landing/debugging_invalid_json.png)
+
+### [Debugging invalid JSON](/en/copilot/example-prompts-for-github-copilot-
+chat/debugging-errors/debugging-invalid-json)
+
+Copilot can identify and resolve syntax errors or structural issues in JSON
+data.
+
+## Explore 0 prompt articles
+
+Category:
+
+All
+
+Complexity:
+
+AllReset filters
 
 ## Aide et support
 
@@ -329,6 +399,12 @@ windows-terminal)
 
 Vous pouvez utiliser Copilot dans Windows Terminal pour obtenir des
 suggestions et des explications sur la ligne de commande.
+
+## [Indexing repositories for Copilot Chat](/fr/copilot/using-github-
+copilot/indexing-repositories-for-copilot-chat)
+
+GitHub Copilot Chat improves responses to questions about code by indexing
+your repositories.
 
 ## [Révision du code](/fr/copilot/using-github-copilot/code-review)
 
@@ -594,24 +670,26 @@ GitHub](https://github.com/orgs/community/discussions)
 
 
 
-# Functionality analysis and feature suggestions
+# Analyse de la fonctionnalité et suggestions de fonctionnalités
 
-Discover ways that you can use GitHub Copilot to improve the functionality of
-your project.
+Découvrez comment vous pouvez utiliser GitHub Copilot pour améliorer la
+fonctionnalité de votre projet.
 
-## [Exploring potential feature implementations](/fr/copilot/example-prompts-
-for-github-copilot-chat/functionality-analysis-and-feature-
-suggestions/exploring-potential-feature-implementations)
+## [Exploration des possibilités de mise en œuvre des
+fonctionnalités](/fr/copilot/example-prompts-for-github-copilot-
+chat/functionality-analysis-and-feature-suggestions/exploring-potential-
+feature-implementations)
 
-Copilot Chat can help explore different approaches for implementing a single
-feature.
+Copilot Chat peut permettre d’explorer différentes approches pour la mise en
+œuvre d'une fonctionnalité unique.
 
-## [Analyzing and incorporating user feedback](/fr/copilot/example-prompts-
-for-github-copilot-chat/functionality-analysis-and-feature-
-suggestions/analyzing-and-incorporating-user-feedback)
+## [Analyser et intégrer les commentaires des
+utilisateurs](/fr/copilot/example-prompts-for-github-copilot-
+chat/functionality-analysis-and-feature-suggestions/analyzing-and-
+incorporating-user-feedback)
 
-Copilot Chat can enhance the process of incorporating user feedback into your
-project.
+Copilot Chat peut améliorer le processus d’intégration des commentaires des
+utilisateurs dans votre projet.
 
 ## Aide et support
 
@@ -689,25 +767,27 @@ Copilot Chat peut vous aider à séparer votre logique commerciale du code de
 l'interface utilisateur, ce qui facilite la maintenance et l'évolution de
 votre application.
 
-## [Handling cross-cutting concerns](/fr/copilot/example-prompts-for-github-
+## [Gérer les problèmes transversaux](/fr/copilot/example-prompts-for-github-
 copilot-chat/refactoring-code/handling-cross-cutting-concerns)
 
-Copilot Chat can help you avoid code that relates to a concern other than the
-core concern of the method or function in which the code is located.
+Copilot Chat peut vous aider à éviter le code qui se rapporte à un problème
+autre que le problème principal de la méthode ou de la fonction dans laquelle
+se trouve le code.
 
-## [Simplifying complex inheritance hierarchies](/fr/copilot/example-prompts-
-for-github-copilot-chat/refactoring-code/simplifying-complex-inheritance-
-hierarchies)
+## [Simplifier les hiérarchies d’héritage complexes](/fr/copilot/example-
+prompts-for-github-copilot-chat/refactoring-code/simplifying-complex-
+inheritance-hierarchies)
 
-Copilot Chat can help you to refactor code to avoid classes with multiple
-layers of inheritance.
+Copilot Chat peut vous aider à refactoriser le code pour éviter les classes
+avec plusieurs niveaux d’héritage.
 
-## [Fixing database deadlocks or data integrity issues](/fr/copilot/example-
-prompts-for-github-copilot-chat/refactoring-code/fixing-database-deadlocks-or-
-data-integrity-issues)
+## [Correction des interblocages de base de données ou des problèmes
+d’intégrité des données](/fr/copilot/example-prompts-for-github-copilot-
+chat/refactoring-code/fixing-database-deadlocks-or-data-integrity-issues)
 
-Copilot Chat can help you avoid code that causes slow or blocked database
-operations, or tables with missing or incorrect data.
+Copilot Chat peut vous aider à éviter le code qui provoque des opérations de
+base de données lentes ou bloquées, ou des tables avec des données manquantes
+ou incorrectes.
 
 ## Aide et support
 
@@ -1058,12 +1138,16 @@ GitHub](https://github.com/orgs/community/discussions)
 Les utilisateurs individuels peuvent s'abonner à Copilot Individual pour leur
 usage personnel.
 
-## [Gestion de votre abonnement Copilot](/fr/copilot/managing-
-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-
-subscription)
+## [Managing your GitHub Copilot Pro subscription](/fr/copilot/managing-
+copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-
+copilot-pro-subscription)
 
-Abonnez-vous à GitHub Copilot et gérez votre abonnement en tant qu’utilisateur
-individuel.
+Subscribe to Copilot Pro and manage your subscription as an individual user.
+
+## [About GitHub Copilot Free](/fr/copilot/managing-copilot/managing-copilot-
+as-an-individual-subscriber/about-github-copilot-free)
+
+Use GitHub Copilot in your IDE or on GitHub.com for free.
 
 ## [Gestion des stratégies de Copilot en tant qu’abonné
 individuel](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-
@@ -1077,7 +1161,8 @@ personnel](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-
 subscriber/extending-the-capabilities-of-github-copilot-in-your-personal-
 account)
 
-Individual users can subscribe to Copilot Individual for personal use.
+Individual users can subscribe to Copilot Pro or Copilot Free for personal
+use.
 
 ## Aide et support
 
@@ -1145,6 +1230,13 @@ github-copilot-in-the-cli)
 
 Découvrez comment configurer les paramètres et les alias pour Copilot in the
 CLI.
+
+## [Utilisation de GitHub Copilot avec un compte sur
+GHE.com](/fr/copilot/managing-copilot/configure-personal-settings/using-
+github-copilot-with-an-account-on-ghecom)
+
+Mettez à jour votre environnement de développement pour accéder à un
+abonnement Copilot pour un compte sur GHE.com.
 
 ## Aide et support
 
@@ -1230,12 +1322,6 @@ organisation](/fr/copilot/customizing-copilot/extending-the-capabilities-of-
 github-copilot-in-your-organization)
 
 You can customize GitHub Copilot to make it fit your specific needs.
-
-## [Indexation de référentiels pour Copilot Chat](/fr/copilot/customizing-
-copilot/indexing-repositories-for-copilot-chat)
-
-Vous pouvez améliorer les réponses GitHub Copilot Chat en indexant vos
-référentiels.
 
 ## [Ajouter des instructions personnalisées pour GitHub
 Copilot](/fr/copilot/customizing-copilot/adding-custom-instructions-for-
@@ -1860,6 +1946,14 @@ copilot-business)
 Examinez les journaux d'audit de votre abonnement Copilot Business pour
 comprendre quelles actions ont été effectuées par quels utilisateurs.
 
+## [Analyse de l’utilisation au fil du temps avec l’API de métriques
+Copilot](/fr/copilot/managing-copilot/managing-github-copilot-in-your-
+organization/reviewing-activity-related-to-github-copilot-in-your-
+organization/analyzing-usage-over-time-with-the-copilot-metrics-api)
+
+Découvrez comment vous connecter à l’API, stocker des données et analyser les
+tendances d’utilisation.
+
 ## Aide et support
 
 ### Avez-vous trouvé ce dont vous aviez besoin ?
@@ -1888,56 +1982,51 @@ GitHub](https://github.com/orgs/community/discussions)
 
 
 
-# Gestion de votre abonnement Copilot
+# Managing your GitHub Copilot Pro subscription
 
-Abonnez-vous à GitHub Copilot et gérez votre abonnement en tant qu’utilisateur
-individuel.
+Subscribe to Copilot Pro and manage your subscription as an individual user.
 
-## [À propos de la facturation de GitHub Copilot
-Individual](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-
-subscriber/managing-your-copilot-subscription/about-billing-for-github-
-copilot-individual)
+## [About billing for Copilot Pro](/fr/copilot/managing-copilot/managing-
+copilot-as-an-individual-subscriber/managing-your-github-copilot-pro-
+subscription/about-billing-for-copilot-pro)
 
-Découvrez les tarifs et cycles de facturation pour GitHub Copilot Individual.
+Learn about pricing and billing cycles for GitHub Copilot Pro.
 
-## [Obtenir un accès gratuit à Copilot en tant qu’étudiant, enseignant ou
-gestionnaire](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-
-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-
-as-a-student-teacher-or-maintainer)
+## [Getting free access to Copilot Pro as a student, teacher, or
+maintainer](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-
+subscriber/managing-your-github-copilot-pro-subscription/getting-free-access-
+to-copilot-pro-as-a-student-teacher-or-maintainer)
 
-Découvrez comment utiliser Copilot gratuitement en tant qu’étudiant,
-enseignant ou gestionnaire open source.
+Learn how to use Copilot Pro for free as a student, teacher, or open-source
+maintainer.
 
-## [Abonnement à Copilot en tant qu’utilisateur
-individuel](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-
-subscriber/managing-your-copilot-subscription/subscribing-to-copilot-as-an-
-individual-user)
+## [Subscribing to Copilot Pro as an individual user](/fr/copilot/managing-
+copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-
+copilot-pro-subscription/subscribing-to-copilot-pro-as-an-individual-user)
 
-Lancez un essai gratuit pour commencer à utiliser Copilot Individual.
+Start a free trial to begin using Copilot Pro.
 
-## [Modification de votre abonnement Copilot en tant qu’utilisateur
-individuel](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-
-subscriber/managing-your-copilot-subscription/modifying-your-copilot-
-subscription-as-an-individual-user)
+## [Modifying your Copilot Pro subscription as an individual
+user](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-
+subscriber/managing-your-github-copilot-pro-subscription/modifying-your-
+copilot-pro-subscription-as-an-individual-user)
 
-Vous pouvez choisir d'être facturé mensuellement ou annuellement pour Copilot
-Individual.
+You can change whether you are billed monthly or yearly for Copilot Pro.
 
-## [Annulation de votre essai de Copilot en tant qu'utilisateur
-individuel](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-
-subscriber/managing-your-copilot-subscription/canceling-your-copilot-trial-as-
-an-individual-user)
+## [Canceling your Copilot Pro trial as an individual
+user](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-
+subscriber/managing-your-github-copilot-pro-subscription/canceling-your-
+copilot-pro-trial-as-an-individual-user)
 
-Vous pouvez annuler votre essai Copilot Individual si vous ne souhaitez pas
-être abonné à Copilot Individual après la fin de votre période d'essai.
+You can cancel your Copilot Pro trial if you don't want to be subscribed to
+Copilot Pro after your trial period ends.
 
-## [Annulation de Copilot en tant qu'utilisateur
-individuel](/fr/copilot/managing-copilot/managing-copilot-as-an-individual-
-subscriber/managing-your-copilot-subscription/canceling-copilot-as-an-
-individual-user)
+## [Canceling Copilot Pro as an individual user](/fr/copilot/managing-
+copilot/managing-copilot-as-an-individual-subscriber/managing-your-github-
+copilot-pro-subscription/canceling-copilot-pro-as-an-individual-user)
 
-Vous pouvez annuler votre abonnement Copilot Individual si vous ne souhaitez
-plus utiliser Copilot Individual.
+You can cancel your Copilot Pro subscription if you no longer want to use
+Copilot Pro.
 
 ## Aide et support
 
