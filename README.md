@@ -1,19 +1,21 @@
-
 # Documentation Crawler & Converter
 
-Ce projet est un crawler Python conçu pour extraire le contenu de pages de documentation en HTML et les convertir en un fichier unique au format Markdown.
+Ce projet est un crawler Python conçu pour extraire le contenu de pages de documentation en HTML et les convertir au format Markdown. Il offre deux modes de sortie : un fichier unique contenant toute la documentation et une arborescence de fichiers qui respecte la structure de la documentation d'origine.
 
-Il est particulièrement utile pour pouvoir alimenter les GPTs en contexte et donc etre plus pertinent.
+Il est particulièrement utile pour pouvoir alimenter les GPTs en contexte et donc être plus pertinent.
 
 ## Fonctionnalités
 
-- **Extraction de contenu principal:** Le script identifie et extrait le contenu principal de chaque page, en évitant les menus, en-têtes et pieds de page.
-- **Conversion en Markdown :** Après extraction, le contenu est converti en Markdown pour être consultable dans un fichier texte.
-- **Consolidation dans un seul fichier :** Tout le contenu extrait est regroupé dans un fichier `documentation_complete.md`, permettant une consultation fluide de toute la documentation.
+- **Extraction de contenu principal :** Le script identifie et extrait le contenu principal de chaque page, en évitant les menus, en-têtes et pieds de page.
+- **Conversion en Markdown :** Après extraction, le contenu est converti en Markdown pour être consultable dans des fichiers texte.
+- **Double mode de sortie :**
+  - **Fichier unique :** Tout le contenu extrait est regroupé dans un seul fichier, permettant une consultation fluide de toute la documentation.
+  - **Arborescence de fichiers :** Chaque page extraite est également enregistrée dans un fichier individuel, conservant la structure originale de la documentation.
+- **Suivi intelligent des liens :** Le script analyse les liens internes pour naviguer entre les pages de la documentation tout en restant dans le même domaine.
 
-## Executer en local
+## Exécution en local
 
-- installer un environnement virtuel et installer les librairies
+- Installer un environnement virtuel et installer les librairies
 
 ```bash
 pip install virtualenv
@@ -24,7 +26,7 @@ pip freeze > requirements.txt
 pip install --upgrade -r requirements.txt
 ```
 
-- executer script.py
+- Exécuter script.py
 
 ## Schéma de fonctionnement
 
@@ -41,19 +43,32 @@ sequenceDiagram
    Website-->>Script: Retourne le contenu HTML
    Script->>Script: Extraire le contenu principal
    Script->>Script: Convertir en Markdown
-   Script->>Script: Ajouter le contenu au fichier unique
+   Script->>Script: Stocker le contenu avec l'URL associée
    Script->>Website: Rechercher les liens de la page
    Script->>Website: Suivre chaque lien pour obtenir les autres pages
    Script->>Script: Répéter l'extraction et la conversion
-   Script-->>User: Génère `documentation_complete.md` avec tout le contenu
+   Script-->>User: Génère un fichier unique avec tout le contenu
+   Script-->>User: Crée une arborescence de fichiers respectant la structure d'origine
 
 ```
 
 ## Structure du Projet
 
-- `crawl_docs.py`: Script principal qui effectue le crawling et la conversion.
-- `documentation_complete.md`: Fichier Markdown généré contenant l'intégralité de la documentation récupérée.
-- `README.md`: Documentation du projet.
+- `src/script.py` : Script principal qui effectue le crawling et la conversion.
+- `extract/` : Répertoire contenant les fichiers de sortie générés :
+  - `*.md` : Fichier Markdown unique contenant l'intégralité de la documentation.
+  - `*_tree/` : Répertoire contenant l'arborescence de fichiers individuels.
+- `README.md` : Documentation du projet.
+
+## Utilisation
+
+Pour lancer le script avec vos propres paramètres, modifiez les variables suivantes dans `script.py` :
+
+```python
+START_URL = "https://docs.github.com/fr/actions"  # L'URL de départ pour le crawling
+FILE_NAME_OUTPUT = "extract/githubactions.md"     # Chemin du fichier unique de sortie
+TREE_OUTPUT_DIR = "extract/githubactions_tree"    # Chemin du dossier pour l'arborescence
+```
 
 ## Notes
 
