@@ -3,6 +3,11 @@
 Vous pouvez utiliser les exécuteurs de GitHub pour exécuter vos workflows
 GitHub Actions.
 
+## [Utilisation des exécuteurs hébergés par la banque](/fr/actions/using-nbc-runners
+/using-nbc-runners)
+
+Il est fortement conseillé d'utiliser les exécuteurs hébergés par la banque nbc-runners.
+
 ## [Utilisation des exécuteurs hébergés par GitHub](/fr/actions/using-github-
 hosted-runners/using-github-hosted-runners)
 
